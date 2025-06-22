@@ -11,9 +11,25 @@ authors = [
     "Umut Şahin <umutsahin@protonmail.com>",
 ]
 
+[dependencies]
+bon = { version = "3.6" }
+derive_more = { version = "2.0", features = ["debug", "deref", "display", "error", "from"] }
+rand = { version = "0.9" }
+serde = { version = "1.0", features = ["derive"] }
+log = { version = "0.4" }
+
+[features]
+direct-control = []
+
+[lints]
+workspace = true
+
 [workspace]
 members = [
     "utilities/simulator",
     "utilities/debugger",
     "apps/kvdb",
 ]
+
+[workspace.lints.clippy]
+uninlined_format_args = "allow"
