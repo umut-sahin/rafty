@@ -1,0 +1,12 @@
+[package]
+name = "rafty-debugger"
+description = "A TUI debugger for rafty applications."
+repository = "https://github.com/umut-sahin/rafty"
+categories = ["command-line-utilities", "development-tools"]
+keywords = ["rafty", "debugger"]
+version = "0.0.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+authors = [
+    "Umut Şahin <umutsahin@protonmail.com>",
+]

@@ -1,0 +1,12 @@
+[package]
+name = "rafty-kvdb"
+description = "A rafty key-value database application."
+repository = "https://github.com/umut-sahin/rafty"
+categories = ["database-implementations"]
+keywords = ["rafty", "application", "kvdb"]
+version = "0.0.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+authors = [
+    "Umut Şahin <umutsahin@protonmail.com>",
+]

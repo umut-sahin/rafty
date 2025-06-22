@@ -1,0 +1,19 @@
+[package]
+name = "rafty"
+description = "An implementation of the Raft consensus algorithm created for educational purposes."
+repository = "https://github.com/umut-sahin/rafty"
+categories = ["network-programming"]
+keywords = ["raft", "distributed", "consensus"]
+version = "0.0.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+authors = [
+    "Umut Şahin <umutsahin@protonmail.com>",
+]
+
+[workspace]
+members = [
+    "utilities/simulator",
+    "utilities/debugger",
+    "apps/kvdb",
+]
