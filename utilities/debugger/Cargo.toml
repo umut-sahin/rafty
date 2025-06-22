@@ -10,3 +10,15 @@ license = "MIT OR Apache-2.0"
 authors = [
     "Umut Şahin <umutsahin@protonmail.com>",
 ]
+
+[dependencies]
+anyhow = { version = "1.0" }
+crossterm = { version = "0.29" }
+log = { version = "0.4" }
+rafty = { path = "../.." }
+rafty-simulator = { path = "../simulator" }
+ratatui = { version = "0.29" }
+tui-logger = { version = "0.17" }
+
+[lints]
+workspace = true
